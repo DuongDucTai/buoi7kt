@@ -8,7 +8,7 @@
     <!-- Thêm Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Thêm CSS tùy chỉnh -->
-    <link rel="stylesheet" href="/2180606572_PhanHieuNghia_KT/css/style.css">
+    <link rel="stylesheet" href="/TRANGSINHVIEN/css/style.css">
 </head>
 
 <body>
