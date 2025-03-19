@@ -1,166 +1,28 @@
-/* Reset cơ bản */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* Thiết lập nền và căn giữa nội dung */
 body {
-    background-color: #f5f6fa;
-    color: #2d3436;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: #f8f9fa;
 }
 
-/* Container chính */
-.container {
-    width: 80%;
-    max-width: 1200px;
-    background: white;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+h2 {
+    color: #343a40;
+    margin-bottom: 20px;
 }
 
-/* Header */
-.header {
-    width: 100%;
-    background: #0984e3;
-    color: white;
-    padding: 15px 0;
-    text-align: center;
-    font-size: 22px;
+form label {
     font-weight: bold;
-    border-radius: 10px 10px 0 0;
-}
-
-/* Navigation */
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    background: #74b9ff;
-    padding: 10px 0;
-    border-radius: 5px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 8px 15px;
-    border-radius: 5px;
-}
-
-.navbar a:hover {
-    background: #0984e3;
-}
-
-/* Form đăng nhập / đăng ký */
-.auth-form {
-    max-width: 400px;
-    width: 100%;
-    background: white;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.auth-form h2 {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.auth-form input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.auth-form button {
-    width: 100%;
-    background: #0984e3;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.auth-form button:hover {
-    background: #74b9ff;
-}
-
-/* Bảng dữ liệu */
-.table-container {
-    width: 100%;
-    overflow-x: auto;
-    margin-top: 20px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
     margin-top: 10px;
 }
 
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background: #0984e3;
-    color: white;
-}
-
-/* Nút bấm */
-.btn {
-    display: inline-block;
-    padding: 8px 12px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.btn-primary {
-    background: #0984e3;
-}
-
-.btn-danger {
-    background: #d63031;
-}
-
-.btn-success {
-    background: #00b894;
-}
-
-.btn:hover {
-    opacity: 0.8;
-}
-
-/* Footer */
-.footer {
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    background: #2d3436;
-    color: white;
+form input,
+form select {
+    margin-bottom: 10px;
     width: 100%;
+    max-width: 400px;
+}
+
+table img {
     border-radius: 5px;
+}
+
+.alert {
+    margin-bottom: 20px;
 }
